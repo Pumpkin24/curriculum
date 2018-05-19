@@ -7,7 +7,7 @@
  */
 
 const solution = (n, string, result='') => {
-  if (n===0) return result;
+  if (n === 0) return result;
   result = result + string;
   return solution(n-1, string, result);
 };
